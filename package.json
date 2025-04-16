@@ -1,0 +1,29 @@
+{
+  "name": "devex-bot",
+  "version": "1.2.8",
+  "description": "v14-handler",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "pm2:start": "pm2 start index.js --name djs_handler",
+    "pm2:stop": "pm2 stop djs_handler",
+    "pm2:restart": "pm2 restart djs_handler",
+    "pm2:list": "pm2 list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
+  "keywords": [
+    "discord"
+  ],
+  "author": "devexxh",
+  "dependencies": {
+    "cololog": "^1.0.4",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.2",
+    "mongoose": "^6.2.10"
+  }
+}
